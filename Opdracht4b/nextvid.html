@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div style="left: 797.5px; top: 0px; border-radius: 100%; background-color: black; width: 50px; height: 50px; position: absolute;"></div>
+<div style="left: 817.5px; top: 40px; border-radius: 0%; background-color: black; width: 15px; height: 200px; position: absolute; rotate: -2deg;"></div>
+<div style="left: 935px; top: 80px; border-radius: 100%; background-color: black; width: 50px; height: 50px; position: absolute;"></div>
+<div style="left: 885px; top: 72.5px; border-radius: 0%; background-color: black; width: 15px; height: 200px; position: absolute; rotate: 45deg;"></div>
+<div style="left: 350px; top: 220px; border-radius: 2%; background-image: linear-gradient(black, rgb(100, 100, 100)); width: 650px; height: 500px; position: absolute;"></div>
+<div style="left: 362.5px; top: 232.5px; border-radius: 2%; background-image: linear-gradient(rgb(182, 182, 182), black); width: 625px; height: 475px; position: absolute;"></div>
+<div style="left: 412.5px; top: 275px; border-radius: 2%; background-image: linear-gradient(rgb(71, 71, 71), rgb(212, 212, 212)); width: 525px; height: 310px; position: absolute;"></div>
+<div style="left: 585px; top: 685px; border-radius: 0%;  border: 5px solid black; background-color:rgb(100, 100, 100); width: 175px; height: 25px; position: absolute;"></div>
+<div style="position: absolute; left: 430px; top: 292.5px; border-radius: 2%; background-image: linear-gradient(rgb(58, 85, 206), rgb(4, 69, 248)); width: 489px; height: 275px;">
+    <video id="video"  autoplay width= "100%;" height= "100%">
+        <source src="CaH.mp4" type="video/mp4">
+
+    </video>
+</div>
+<div onclick="nextvid()" style="left: 895px; top: 637.5px; border: 2px  solid rgb(28, 158, 16); border-radius: 100%; cursor: pointer; background-image: linear-gradient(rgb(245, 255, 242), rgb(35, 160, 24)); width: 40px; height: 40px; position: absolute;">
+</div>
+<button onclick="nomute()">Klik hier om het geluid aan te zetten</button>
+<!-- P.S. Deze knop moest komen omdat autoplay alleen gemuted mogelijk is. 
+    Ook moest ik de controls verborgen hebben<br>en was het voor u dan 
+    ook niet mogelijk om zelf het volume te verhogen. -->
+<script>
+
+    document.getElementById("video").muted = true;
+    function nextvid(){
+    window.location.href = "index.html";
+    }
+    function nomute(){
+        document.getElementById("video").muted = false;
+    }
+</script>
+
+</body>
+</html>

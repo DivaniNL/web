@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #856f60;
+}
+
+.container{
+    width: 600px;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:  25px;
+    background-image: radial-gradient(circle, rgb(83, 83, 83), rgb(44, 43, 43), black);
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+.bar-top{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    width: 99.5%;
+    height: 10px;
+    background-image: linear-gradient( #d0e150, #8db80c);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.author{
+    text-align: center;
+    margin-top: 50px;
+    color: #8d99a7;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.songs{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 90%;
+    position: relative;
+}
+.level1{
+    width: 160px;
+    height: 160px;
+    background-image: linear-gradient(to bottom right, #9ea0a2, #626669);
+    position: absolute;
+    top: 10px;
+    display: inline-block;
+    margin-left: 60px;
+    
+}
+.level2{
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient(to bottom right, #9ea0a2, #626669);
+    position: absolute;
+    top: 30px;
+    display: inline-block;
+}
+.level0-border{
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(to bottom, #e6f056 , #5fa31a);
+    padding: 10px;
+    position: absolute; 
+    display: inline-block;
+    margin-left: 180px;
+    z-index: 2;
+}
+.level0{
+    background-image: linear-gradient(to bottom right, #9ea0a2, #626669);
+    height: 160px;
+    margin-top:auto;
+}
+.img0{
+max-width: 160px;
+}
+.level-1{
+    width: 160px;
+    height: 160px;
+    background-image: linear-gradient(to bottom right, #9ea0a2, #626669);
+    position: absolute;
+    top: 10px;
+    display: inline-block;
+    margin-left: 320px;
+    z-index: 1;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(204, 204, 204);
+    cursor: pointer;
+}
+b{
+color: white;
+}
+.img1{
+max-width: 160px;
+}
+.level-2{
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient(to bottom right, #9ea0a2, #626669);
+    position: absolute;
+    top: 30px;
+    display: inline-block;
+    margin-left: 420px;
+}
+.img2{
+max-width: 120px;
+}
+img{
+cursor: pointer;
+}
+.audio{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 10px;
+}
+audio{
+height: 20px;
+width: 80%;
+}
+table{
+    margin-top: 50px;
+    margin-left: 60px;
+    color: white;
+    font-size: 16px;
+}
+.number{
+text-align: left;
+width: 50px;
+}
+.songname{
+    width: 375px;
+}
+
