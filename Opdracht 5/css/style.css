@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 90%;
+    max-width: 960px;
+    margin: 10px auto;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+header {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+    max-height: 200px;
+}
+
+nav {
+    height: 50px;
+    background-color: #11aa88;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+nav ul li {
+    width: 17%;
+    margin-left: 6%;
+    background-color: #97e4d3;
+    display: inline-block;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 70%;
+}
+
+nav ul li:hover {
+    background-color: #267249;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 80%;
+}
+
+main {
+    height: 750px;
+    width: 56.25%;
+    display: inline-block;
+    background-color: #81f1d9;
+    margin-bottom: 15px;
+    padding: 3.90625% 5.625% 3.90625% 5.625%;
+}
+
+article {
+    background-color: #11aa88;
+    margin-bottom: 30px;
+    height: 230px;
+}
+
+article img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+aside {
+    vertical-align: top;
+    margin-left: 6.66%;
+    display: inline-block;
+    height: 750px;
+    background-color: #d2eb8e;
+    margin-bottom: 15px;
+    width: 25%;
+}
+
+aside p {
+    text-align: left;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+footer {
+    height: 250px;
+    background-color: #11aa88;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer p {
+    text-align: left;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+aside p {
+    text-align: left;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+@media all and (max-width: 768px) {
+    main {
+        width: 89%;
+    }
+    aside {
+        width: 100%;
+        margin-left: 0;
+    }
+    nav ul li {
+        width: 18%;
+        margin-left: 5%;
+        background-color: #97e4d3;
+        display: inline-block;
+        font-weight: 600;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 40%;
+    }
+    nav ul li:hover {
+        background-color: #267249;
+        color: whitesmoke;
+        cursor: pointer;
+        font-size: 50%;
+    }
+    footer{
+    height: inherit;
+    }
+}
